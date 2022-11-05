@@ -1,0 +1,21 @@
+/* configuração todas sections */
+#caixaDeSecao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+/* configuração todas sections */
+
+#secaoPadrao{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+
+#secaoPadrao h1,p{
+    color: #d4d4d4;
+    text-align: center;
+}

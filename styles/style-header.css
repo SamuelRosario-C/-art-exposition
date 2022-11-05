@@ -1,0 +1,72 @@
+#barraDeInformacoes {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+}
+
+#listaDeOpcoes{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 1rem 0;
+
+}
+
+.itensDaLista{
+    color: #d4d4d4;
+    padding: calc(0% - -10px) 10px calc(0% - -10px) 6px;
+    padding-bottom: 6px;
+    font-size: calc(1vw - -10px);
+    position: relative;
+    cursor: pointer;
+}
+
+.itensDaLista::after, .itensDaLista::before{
+    border-radius: .2rem;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+
+}
+
+.itensDaLista:hover:after{
+    border: 1px solid #e2e2e2;
+    transform: translate(-5px, -5px);
+}
+
+.itensDaLista:hover:before{
+    border: 1px solid #e2e2e2;
+    transform: translate(5px, 5px);
+}
+
+
+
+#logoPage{
+    margin-bottom: 1.5rem;
+    width: calc(7vw - -104px);
+    border-radius: 0 0 100% 100%;
+}
+
+#redeSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+}
+
+.linkDasRedeScoais img{
+    width: 2rem;
+    filter: invert(99%) sepia(99%) saturate(99%);
+
+}
