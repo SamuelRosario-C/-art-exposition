@@ -7,11 +7,13 @@
     gap: 2rem;
     margin-bottom: 2rem;
     padding: 0 1rem 0 1rem;
+    display: none; /* Remover o display none futuramente */
 }
 
 .moldura {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: #3737377e;
     padding: 1rem;
@@ -19,7 +21,7 @@
 }
 
 .imgArte{
-    width: 20vw;
+    width: 15vw;
     box-shadow: 0px 0px 7px 0px white;
 }
 
