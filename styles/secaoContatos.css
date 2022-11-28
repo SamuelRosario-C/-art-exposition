@@ -1,0 +1,50 @@
+#secaoContatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    display: none; 
+    /* remover display none */
+}
+
+.linksContatos{
+    max-width: 900px;
+    width: 100vw;
+    padding: 0.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    transition: transform 0.4s ease-in-out; 
+}
+
+.linksContatos:hover{
+    transform: scale(1.05);
+}
+
+.linksContatos span{
+    font-size: 1.1rem;
+}
+
+
+.whatsappContato{
+    background-color: #25D366;
+    box-shadow: 0 0 .9rem #25D366;
+}
+
+.linkedinContato{
+    background-color: #0e76a8;
+    box-shadow: 0 0 .9rem #0e76a8;
+}
+
+.githubContato{
+    background-color: #171515;
+    box-shadow: 0 0 .9rem #3c3b3b;
+}
+
+.gmailContato{
+    background-color: #db4a39;
+    box-shadow: 0 0 .9rem #db4a39;
+
+}

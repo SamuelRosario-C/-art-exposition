@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/fundodosite.css">
     <link rel="stylesheet" href="./styles/secaoArtes.css">
     <link rel="stylesheet" href="./styles/secaoContribuentes.css">
+    <link rel="stylesheet" href="./styles/secaoContatos.css">
     <title>Layout Arts</title>
 </head>
 
@@ -36,7 +37,7 @@
             <li class="itensDaLista">Artes</li>
             <li class="itensDaLista">Contribuentes</li>
             <li class="itensDaLista">Sobre-nós</li>
-            <li class="itensDaLista">Contato</li>
+            <li class="itensDaLista">Contatos</li>
         </ul>
 
         <img id="logoPage"
@@ -62,7 +63,7 @@
     <main id="caixaDeSecao">
         <!-- SEÇÃO Padrão -->
         <section id="secaoPadrao">
-            <h1>VENHA VER NOSSA EXPOSIÇÃO DE ARTES</h1>
+            <h1>VENHA VER NOSSAS EXPOSIÇÕES DE ARTES</h1>
             <p>Aqui você encontra as artes mais famosas!</p>
         </section>
         <!-- SEÇÃO ARTES -->
@@ -72,13 +73,20 @@
         <section id="secaoContribuentes">
             <div id="contribuente">
                 <img id="imagemCriador" src="./assets/images/perfil/perfil.webp" alt="imagem do criador">
-                <a class="contribuentesLinks" href="#">Github</a>
-                <a class="contribuentesLinks" href="#">Gmail</a>
-                <a class="contribuentesLinks" href="#">Linkedin</a>
+                <h2 class="nomeDoCriador">Samuel W. Santos</h2>
             </div>
         </section>
+        <!-- SEÇÃO CONTATOS -->
+        <section id="secaoContatos">
+            <a class="linksContatos whatsappContato" href="#">WHATSAPP <span>▶</span></a>
+            <a class="linksContatos linkedinContato" href="#">LINKEDIN <span>▶</span></a>
+            <a class="linksContatos githubContato" href="#">GITHUB <span>▶</span></a>
+            <a class="linksContatos gmailContato" href="#">GMAIL <span>▶</span></a>
+        </section>
     </main>
+
     <script src="./scripts/artes.js"></script>
+    <script src="./scripts/trocarPaginas.js"></script>
 </body>
 
 </html>
