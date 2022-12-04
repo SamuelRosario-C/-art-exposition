@@ -7,7 +7,7 @@
     gap: 2rem;
     margin-bottom: 2rem;
     padding: 0 1rem 0 1rem;
-    display: none; /* Remover o display none futuramente */
+    display: none;
 }
 
 .moldura {

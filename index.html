@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/secaoArtes.css">
     <link rel="stylesheet" href="./styles/secaoContribuentes.css">
     <link rel="stylesheet" href="./styles/secaoContatos.css">
+    <link rel="stylesheet" href="./styles/secaoSobreNos.css">
     <title>Layout Arts</title>
 </head>
 
@@ -34,10 +35,10 @@
     <!-- Header de navegação -->
     <header id="barraDeInformacoes">
         <ul id="listaDeOpcoes">
-            <li class="itensDaLista">Artes</li>
-            <li class="itensDaLista">Contribuentes</li>
-            <li class="itensDaLista">Sobre-nós</li>
-            <li class="itensDaLista">Contatos</li>
+            <li id="btn-artes" class="itensDaLista">Artes</li>
+            <li id="btn-contribuentes" class="itensDaLista">Contribuentes</li>
+            <li id="btn-sobrenos" class="itensDaLista">Sobre-nós</li>
+            <li id="btn-contatos" class="itensDaLista">Contatos</li>
         </ul>
 
         <img id="logoPage"
@@ -62,22 +63,32 @@
     <!-- Exibir informações -->
     <main id="caixaDeSecao">
         <!-- SEÇÃO Padrão -->
-        <section id="secaoPadrao">
+        <section class="secoesDaCaixa" id="secaoPadrao">
             <h1>VENHA VER NOSSAS EXPOSIÇÕES DE ARTES</h1>
             <p>Aqui você encontra as artes mais famosas!</p>
         </section>
+
         <!-- SEÇÃO ARTES -->
-        <section id="secaoArtes">
+        <section class="secoesDaCaixa" id="secaoArtes">
+
         </section>
 
-        <section id="secaoContribuentes">
+        <!-- SEÇÃO DE CONTRIBUENTES -->
+        <section class="secoesDaCaixa" id="secaoContribuentes">
             <div id="contribuente">
                 <img id="imagemCriador" src="./assets/images/perfil/perfil.webp" alt="imagem do criador">
-                <h2 class="nomeDoCriador">Samuel W. Santos</h2>
+                <h2 id="aa" class="nomeDoCriador">Samuel W. Santos</h2>
             </div>
         </section>
+
+        <!-- SEÇÃO SOBRE-NÓS -->
+        <section class="secoesDaCaixa" id="secaoSobreNos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quos a quod tempora repudiandae iusto ex.
+                Quae obcaecati inventore quod, nostrum voluptas nulla. Expedita amet in esse libero atque deserunt?</p>
+        </section>
+
         <!-- SEÇÃO CONTATOS -->
-        <section id="secaoContatos">
+        <section class="secoesDaCaixa" id="secaoContatos">
             <a class="linksContatos whatsappContato" href="#">WHATSAPP <span>▶</span></a>
             <a class="linksContatos linkedinContato" href="#">LINKEDIN <span>▶</span></a>
             <a class="linksContatos githubContato" href="#">GITHUB <span>▶</span></a>
